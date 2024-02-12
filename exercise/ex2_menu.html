@@ -4,21 +4,53 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lemon&display=swap" rel="stylesheet">
+    <Style>
+     .food{ color: burlywood;
+            left: 50px;
+            font-size: 70px;
+            padding-left: 50px;  
+            font-family:  'Lemon', serif;
+            position: relative;
+            margin-top: 50px;
+            margin-bottom: 50px;
+     }
+
+     .backfood{
+               background-color: sienna;
+               padding: 10px;
+               margin: 5px;
+     }
+     
+     .Tips {
+        background-color:  yellow;
+        border: 3px solid orange;
+      }
+     
+     
+    .clear{
+      clear: both;
+    }
+          
+    </Style>
   </head>
   <body>
-    <h1 style="color: burlywood;">Tempura</h1>
+    <div class="food">Tempura And Sauce</div>
     
-    <img src="images/tempura.jpg" alt="tempore" width="500dp" />
-
+    <div class="backfood"> <img src="images/tempura.jpg" alt="tempore" width="500px" />
     <p>
       เมนูชุบแป้งทอดของญี่ปุ่น มักใช้อาหารทะเลและผัก มาชุบแป้งทอด
       แล้วทอดในน้ำมัน ทำให้ได้ของทอดสีเหลืองทอง กรอบอร่อย
       โดยวัตถุดิบที่นิยมนำมาทำเทมปุระ ได้แก่ กุ้ง ปลาหมึก เนื้อปลา ฟักทอง แครอท
       มะเขือม่วง เห็ดชิตาเกะ ฯลฯ
     </p>
+    </div>
+    <div class="clear"></div>
 
-    <h2>เคล็ดลับ</h2>
-    <p>
+    
+    <div class="Tips"><h2>เคล็ดลับ</h2><p>
       ให้แป้งฟูสวย กรอบอร่อย แป้งทอดเทมปุระ จะต้องเย็นจัด โดยการนำแป้งเค้ก
       น้ำเย็น และ ไข่ไก่ ไปแช่ตู้เย็นก่อน แล้วจึงค่อยนำมาผสม
       ซึ่งในขั้นตอนการผสมนั้น จะไม่คนให้ทุกอย่างละลายเข้ากันดี
@@ -27,8 +59,10 @@
       จนกว่าจะแป้งจะละลายเข้ากันกับน้ำและไข่ไก่เอง ทำให้ได้แป้งทอดเทมปุระ
       ที่มีลักษณะข้น เหลว มีแป้งติดกันอยู่เป็นก้อนบ้าง
       ซึ่งเป็นลักษณะของแป้งทอดเทมปุระที่ดี ตามฉบับญี่ปุ่น
-    </p>
-
+    </p></div>
+    
+    
+    <div>ส่วนประสม</div>
     <table border="1">
       <tr>
         <td>วัตถุดิบ</td>
@@ -135,5 +169,15 @@
       5.เทซอสเทมปุระลงในน้ำจิ้ม ใส่หัวไชเท้าตามชอบ เสิร์ฟคู่กับเทมปุระ
       เป็นอันเสร็จ
     </p>
+
+    <h2>ความคิดเห็น</h2>
+    <br>
+       <label for="address">Address : </label>
+       <textarea name="address"  cols="30" rows="10"></textarea>
+
+       <br>
+       <input type="submit" value="ส่งความคิดเห็น"/>   
   </body>
+
+
 </html>
